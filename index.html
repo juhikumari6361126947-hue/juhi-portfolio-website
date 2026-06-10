@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juhi Kumari - Frontend Developer & CSE Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">Juhi Kumari</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Mobile Menu Toggle -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-photo">
+                <div class="photo-circle">
+                    <img src="profile.jpg" alt="Juhi Kumari" class="profile-image">
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="typing-text">Juhi Kumari</span></h1>
+                <p class="hero-subtitle">Frontend Developer & CSE Student</p>
+                <p class="hero-description">
+                    Transforming ideas into modern, responsive, and user-centric web experiences.
+    As a Computer Science Engineering graduate, I am passionate about building
+    innovative web applications, solving real-world problems, and continuously
+    expanding my technical expertise.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <a href="Juhi_Kumari_CV.pdf" class="btn btn-download" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+        👋 Hi, I'm <strong>Juhi Kumari</strong>, a Frontend Developer and Computer Science
+        Engineering student with a passion for creating modern, responsive, and engaging
+        web applications.
+    </p>
+
+    <p>
+        I enjoy transforming complex problems into simple, beautiful, and intuitive
+        designs. With expertise in HTML, CSS, JavaScript, React, and modern web
+        development practices, I focus on building seamless user experiences that are
+        both functional and visually appealing.
+    </p>
+
+    <p>
+        When I'm not coding, you'll find me exploring emerging technologies, enhancing
+        my development skills, and working on innovative projects that push my creativity
+        and technical abilities to the next level.
+    </p>
+                </div>
+                <div class="about-card">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>B.Tech in Computer Science Engineering (Networks)</h4>
+                        <p class="institute">Government Engineering College, Kaimur</p>
+                        <p class="cgpa">CGPA: <strong>7.64</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-box">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><i class="fab fa-html5"></i><span>HTML</span></div>
+                        <div class="skill-item"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+                        <div class="skill-item"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+                        <div class="skill-item"><i class="fab fa-react"></i><span>React</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Backend Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><i class="fas fa-database"></i><span>MySQL</span></div>
+                        <div class="skill-item"><i class="fas fa-database"></i><span>SQL</span></div>
+                        <div class="skill-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                        <div class="skill-item"><i class="fas fa-server"></i><span>Flask</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><i class="fas fa-code"></i><span>C</span></div>
+                        <div class="skill-item"><i class="fas fa-code"></i><span>C++</span></div>
+                        <div class="skill-item"><i class="fab fa-python"></i><span>Python</span></div>
+                        <div class="skill-item"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><i class="fab fa-git"></i><span>Git</span></div>
+                        <div class="skill-item"><i class="fab fa-github"></i><span>GitHub</span></div>
+                        <div class="skill-item"><i class="fas fa-laptop-code"></i><span>VS Code</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="Portfolio Project">
+                    </div>
+                    <div class="project-header">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p class="project-description">
+                        A fully responsive and modern personal portfolio website with smooth animations 
+                        and a Google Sheets integrated contact form for seamless communication.
+                    </p>
+                    <div class="project-features">
+                        <span class="feature-tag">Responsive Design</span>
+                        <span class="feature-tag">Modern UI</span>
+                        <span class="feature-tag">Google Sheets</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Live</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- (AI Career Guide project removed) -->
+
+                <!-- Project 3: RentLoop -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="rentloop.jpg" alt="RentLoop - Rental Marketplace">
+                    </div>
+                    <div class="project-header">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>RentLoop – Rental Marketplace Website</h3>
+                    <p class="project-description">
+                        Designed and developed a full-stack rental platform for listing and renting items locally. Integrated JWT-based authentication, location-based search, rental request management, and responsive UIs using React.js, Node.js, Express.js, and MongoDB.
+                    </p>
+                    <div class="project-features">
+                        <span class="feature-tag">React</span>
+                        <span class="feature-tag">Node.js</span>
+                        <span class="feature-tag">Express</span>
+                        <span class="feature-tag">MongoDB</span>
+                        <span class="feature-tag">JWT Auth</span>
+                        <span class="feature-tag">Location Search</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Live</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <!-- Certification 1 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>NPTEL Courses</h3>
+                    <div class="cert-details">
+                        <p><strong>Database Management Systems</strong></p>
+                        <p><strong>Operating Systems</strong></p>
+                        <p><strong>IoT & Embedded Systems</strong></p>
+                    </div>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cisco Cybersecurity</h3>
+                    <div class="cert-details">
+                        <p>Essentials Certificate</p>
+                    </div>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>IIT Bombay Spoken Tutorial</h3>
+                    <div class="cert-details">
+                        <p>Web Development & Programming</p>
+                    </div>
+                </div>
+
+                <!-- Certification 4 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>IIT Roorkee Cybersecurity</h3>
+                    <div class="cert-details">
+                        <p>Advanced Security Concepts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Have a question or want to work together? I'd love to hear from you!</p>
+            
+            <div class="contact-socials">
+                <a href="https://github.com" class="contact-social" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" class="contact-social" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <span class="error-message" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" class="social-link" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="social-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:juhikumari6361126947@gmail.com" class="social-link" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p class="copyright">&copy; 2026 Juhi Kumari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" title="Go to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Success Popup -->
+    <div class="success-popup" id="successPopup">
+        <div class="popup-content">
+            <i class="fas fa-check-circle"></i>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. I'll get back to you soon.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
